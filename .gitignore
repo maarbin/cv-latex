@@ -1,3 +1,7 @@
 cv-env/
 *.pyc
 __pycache__/
+*.aux
+*.log
+*.out
+*.tex
