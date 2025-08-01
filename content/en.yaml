@@ -1,0 +1,53 @@
+lang: en
+name: Marta Bińkowska
+location: Poland
+email: mail@xyz.com
+phone: 123 456 789
+linkedin: https://linkedin.com/in/binkowska-marta/
+github: https://github.com/maarbin
+
+rodo_clause: >
+  I hereby give consent for my personal data to be processed for the purposes of the current recruitment process, 
+  in accordance with Article 6(1)(a) of the GDPR (Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016).
+
+about: >
+  I am a self-reliant professional with a strong focus on problem-solving, which translates into a proactive and creative approach to daily responsibilities.
+  A good example of my mindset is the CV you are reading – I designed it using LaTeX and automated the generation of different language and GDPR versions with Python and the Jinja2 templating engine. 
+  You can find the source code in my GitHub repository, where I also share other projects such as a Power BI model and dashboard.
+  In addition to continuously developing my skills, I also believe in knowledge sharing within the team. 
+  I have conducted internal trainings in every position I have held.
+  I’m currently looking for opportunities where I can grow as a data professional while contributing to meaningful projects and team development.
+
+education:
+  - institution: University of Szczecin
+    degree: MS in Econometrics and IT Applications
+    years: 2020 – 2022
+  - institution: University of Szczecin
+    degree: BS in Finance and Accounting
+    years: 2017 – 2020
+
+experience:
+  - title: Data Specialist
+    company: Macrobond Financial
+    location: Szczecin, Poland
+    dates: November 2022 – Present
+    tasks:
+      - Updating and managing economic and financial data on the platform; ensuring high data quality
+      - Cleaning datasets and correcting data inconsistencies or anomalies
+      - Identifying and implementing automation in data processing workflows
+
+  - title: Accountant
+    company: Demant Business Services
+    location: Szczecin, Poland
+    dates: July 2019 – October 2022
+    tasks: []
+
+certifications:
+  - name: PCEP [30-01]– Certified Entry-Level Python Programmer
+    organization: OpenEDG Python Institute
+    date: December 2023
+    link: https://verify.openedg.org/?id=kBAL.rJzU.gLN2
+    ID: kBAL.rJzU.gLN2
+skills:
+  languages: "Polish (native), English (C1)"
+  tools_and_technologies: "Excel (advanced), Power Query, Power BI (intermediate),  SQL (intermediate), Python (basic), Git, SVN, Zsh"

@@ -1,0 +1,54 @@
+lang: pl
+name: Marta Bińkowska
+location: Polska
+email: mail@xyz.com
+phone: 123 456 789
+linkedin: https://linkedin.com/in/binkowska-marta/
+github: https://github.com/maarbin
+
+rodo_clause: >
+  Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w CV dla potrzeb niezbędnych do realizacji procesu rekrutacji
+  zgodnie z art. 6 ust. 1 lit. a RODO (Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r.).
+
+about: >
+  Jestem samodzielną specjalistką, skoncentrowaną na rozwiązywaniu problemów, co przekłada się na proaktywne i kreatywne podejście do codziennych obowiązków.
+  Dobrym przykładem mojego podejścia jest to CV – zaprojektowałam je w LaTeX i zautomatyzowałam generowanie wersji językowych oraz RODO przy użyciu Pythona i silnika szablonów Jinja2.
+  Kod źródłowy znajdziesz w moim repozytorium na GitHubie, gdzie udostępniam także inne projekty, takie jak model i dashboard w Power BI.
+  Poza stałym rozwijaniem własnych umiejętności wierzę również w dzielenie się wiedzą w zespole.
+  Prowadziłam szkolenia wewnętrzne na każdym stanowisku, które do tej pory zajmowałam.
+  Obecnie poszukuję możliwości rozwoju w obszarze danych, chcąc jednocześnie wnosić realną wartość do projektów i wspierać rozwój zespołu.
+
+education:
+  - institution: Uniwersytet Szczeciński
+    degree: Informatyka i Ekonometria (Magister)
+    years: 2020 – 2022
+  - institution: Uniwersytet Szczeciński
+    degree: Finanse i Rachunkowość (Licencjat)
+    years: 2017 – 2020
+
+experience:
+  - title: Data Specialist
+    company: Macrobond Financial
+    location: Szczecin, Polska
+    dates: Listopad 2022 – Obecnie
+    tasks:
+      - Aktualizacja i zarządzanie danymi ekonomicznymi oraz finansowymi; zapewnianie wysokiej jakości danych
+      - Czyszczenie zbiorów danych i korygowanie niespójności lub anomalii
+      - Identyfikacja i wdrażanie automatyzacji w procesach przetwarzania danych
+
+  - title: Księgowa
+    company: Demant Business Services
+    location: Szczecin, Polska
+    dates: Lipiec 2019 – Październik 2022
+    tasks: []
+
+certifications:
+  - name: PCEP [30-01]– Certified Entry-Level Python Programmer
+    organization: OpenEDG Python Institute
+    date: Grudzień 2023
+    link: https://verify.openedg.org/?id=kBAL.rJzU.gLN2
+    ID: kBAL.rJzU.gLN2
+
+skills:
+  languages: "Polski (ojczysty), Angielski (C1)"
+  tools_and_technologies: "Excel (zaawansowany), Power Query, Power BI (średniozaawansowany),  SQL (średniozaawansowany), Python (podstawowy), Git, SVN, Zsh"
