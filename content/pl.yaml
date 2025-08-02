@@ -11,12 +11,11 @@ rodo_clause: >
   zgodnie z art. 6 ust. 1 lit. a RODO (Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r.).
 
 about: >
-  Jestem samodzielną specjalistką, skoncentrowaną na rozwiązywaniu problemów, co przekłada się na proaktywne i kreatywne podejście do codziennych obowiązków.
-  Dobrym przykładem mojego podejścia jest to CV – zaprojektowałam je w LaTeX i zautomatyzowałam generowanie wersji językowych oraz RODO przy użyciu Pythona i silnika szablonów Jinja2.
-  Kod źródłowy znajdziesz w moim repozytorium na GitHubie, gdzie udostępniam także inne projekty, takie jak model i dashboard w Power BI.
-  Poza stałym rozwijaniem własnych umiejętności wierzę również w dzielenie się wiedzą w zespole.
-  Prowadziłam szkolenia wewnętrzne na każdym stanowisku, które do tej pory zajmowałam.
-  Obecnie poszukuję możliwości rozwoju w obszarze danych, chcąc jednocześnie wnosić realną wartość do projektów i wspierać rozwój zespołu.
+  Jestem samodzielną specjalistką z mocnym nastawieniem na rozwiązywanie problemów, co przekłada się na proaktywne i kreatywne podejście do codziennej pracy.
+  Aby pokazać to podejście już na poziomie CV, zaprojektowałam ten dokument w LaTeX i zautomatyzowałam generowanie wersji językowych oraz RODO za pomocą Pythona i silnika szablonów Jinja2.
+  Kod źródłowy można znaleźć w moim repozytorium na GitHubie, gdzie dzielę się także innymi projektami, takimi jak model i dashboard w Power BI.
+  Poza ciągłym rozwojem kompetencji wierzę też w dzielenie się wiedzą w zespole - prowadziłam szkolenia wewnętrzne na każdym stanowisku, które zajmowałam.
+  Obecnie szukam nowych możliwości które pozwolą mi rozwijać się, jednocześnie wnosząc wartość do projektów i zespołu.
 
 education:
   - institution: Uniwersytet Szczeciński
@@ -40,7 +39,10 @@ experience:
     company: Demant Business Services
     location: Szczecin, Polska
     dates: Lipiec 2019 – Październik 2022
-    tasks: []
+    tasks:
+      - Tworzenie cyklicznych raportów i zarządzanie dużymi wolumenami danych w Excelu
+      - Uzgadnianie sald i rozliczeń międzyokresowych
+      - Udział w projektach optymalizacji procesów księgowych
 
 certifications:
   - name: PCEP [30-01]– Certified Entry-Level Python Programmer
@@ -51,4 +53,6 @@ certifications:
 
 skills:
   languages: "Polski (ojczysty), Angielski (C1)"
-  tools_and_technologies: "Excel (zaawansowany), Power Query, Power BI (średniozaawansowany),  SQL (średniozaawansowany), Python (podstawowy), Git, SVN, Zsh"
+  programming: "SQL (średniozaawansowany), Python (średniozaawansowany)"
+  data: "Excel (zaawansowany), Power BI (średniozaawansowany), Power Query"
+  tools: "Git, SVN, Zsh"

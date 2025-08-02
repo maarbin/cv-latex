@@ -11,12 +11,11 @@ rodo_clause: >
   in accordance with Article 6(1)(a) of the GDPR (Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016).
 
 about: >
-  I am a self-reliant professional with a strong focus on problem-solving, which translates into a proactive and creative approach to daily responsibilities.
-  A good example of my mindset is the CV you are reading – I designed it using LaTeX and automated the generation of different language and GDPR versions with Python and the Jinja2 templating engine. 
+  I am a self-driven professional with a strong focus on problem-solving, which translates into a proactive and creative approach to everyday work.
+  As a way to reflect this mindset already at the CV stage, I designed this document using LaTeX and automated the generation of different language and GDPR versions with Python and the Jinja2 templating engine.
   You can find the source code in my GitHub repository, where I also share other projects such as a Power BI model and dashboard.
-  In addition to continuously developing my skills, I also believe in knowledge sharing within the team. 
-  I have conducted internal trainings in every position I have held.
-  I’m currently looking for opportunities where I can grow as a data professional while contributing to meaningful projects and team development.
+  In addition to continuously developing my skills, I also believe in knowledge sharing within the team. I have conducted internal trainings in every position I have held.
+  I’m currently looking for opportunities where I can grow while contributing to meaningful projects and team development.
 
 education:
   - institution: University of Szczecin
@@ -40,7 +39,10 @@ experience:
     company: Demant Business Services
     location: Szczecin, Poland
     dates: July 2019 – October 2022
-    tasks: []
+    tasks:
+      - Creating periodic reports and managing large data volumes in Excel
+      - Reconciling balances and accruals
+      - Participating in accounting process optimization projects
 
 certifications:
   - name: PCEP [30-01]– Certified Entry-Level Python Programmer
@@ -50,4 +52,6 @@ certifications:
     ID: kBAL.rJzU.gLN2
 skills:
   languages: "Polish (native), English (C1)"
-  tools_and_technologies: "Excel (advanced), Power Query, Power BI (intermediate),  SQL (intermediate), Python (basic), Git, SVN, Zsh"
+  programming: "SQL (intermediate), Python (intermediate)"
+  data: "Excel (advanced), Power BI (intermediate), Power Query"
+  tools: "Git, SVN, Zsh"
