@@ -3,8 +3,12 @@ name: Marta Bińkowska
 location: Poland
 email: mail@xyz.com
 phone: 123 456 789
-linkedin: https://linkedin.com/in/binkowska-marta/
-github: https://github.com/maarbin
+linkedin:
+ link: https://linkedin.com/in/binkowska-marta/
+ username: binkowska-marta
+github: 
+ link: https://github.com/maarbin
+ username: maarbin
 
 rodo_clause: >
   I hereby give consent for my personal data to be processed for the purposes of the current recruitment process, 

@@ -1,10 +1,14 @@
 lang: pl
 name: Marta Bińkowska
-location: Polska
+location: Poland
 email: mail@xyz.com
 phone: 123 456 789
-linkedin: https://linkedin.com/in/binkowska-marta/
-github: https://github.com/maarbin
+linkedin:
+ link: https://linkedin.com/in/binkowska-marta/
+ username: binkowska-marta
+github: 
+ link: https://github.com/maarbin
+ username: maarbin
 
 rodo_clause: >
   Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w CV dla potrzeb niezbędnych do realizacji procesu rekrutacji
