@@ -24,16 +24,16 @@ about: >
 education:
   - institution: Uniwersytet Szczeciński
     degree: Informatyka i Ekonometria (Magister)
-    years: 2020 – 2022
+    years: 2020~–~2022
   - institution: Uniwersytet Szczeciński
     degree: Finanse i Rachunkowość (Licencjat)
-    years: 2017 – 2020
+    years: 2017~–~2020
 
 experience:
   - title: Data Specialist
     company: Macrobond Financial
     location: Szczecin, Polska
-    dates: Listopad 2022 – Obecnie
+    dates: Listopad 2022~–~Obecnie
     tasks:
       - Aktualizacja i zarządzanie danymi ekonomicznymi oraz finansowymi; zapewnianie wysokiej jakości danych
       - Czyszczenie zbiorów danych i korygowanie niespójności lub anomalii
@@ -42,7 +42,7 @@ experience:
   - title: Księgowa
     company: Demant Business Services
     location: Szczecin, Polska
-    dates: Lipiec 2019 – Październik 2022
+    dates: Lipiec~2019~–~Październik~2022
     tasks:
       - Tworzenie cyklicznych raportów i zarządzanie dużymi wolumenami danych w Excelu
       - Uzgadnianie sald i rozliczeń międzyokresowych
@@ -51,7 +51,7 @@ experience:
 certifications:
   - name: PCEP [30-01]– Certified Entry-Level Python Programmer
     organization: OpenEDG Python Institute
-    date: Grudzień 2023
+    date: Grudzień~2023
     link: https://verify.openedg.org/?id=kBAL.rJzU.gLN2
     ID: kBAL.rJzU.gLN2
 

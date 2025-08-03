@@ -24,16 +24,16 @@ about: >
 education:
   - institution: University of Szczecin
     degree: MS in Econometrics and IT Applications
-    years: 2020 – 2022
+    years: 2020~–~2022
   - institution: University of Szczecin
     degree: BS in Finance and Accounting
-    years: 2017 – 2020
+    years: 2017~–~2020
 
 experience:
   - title: Data Specialist
     company: Macrobond Financial
     location: Szczecin, Poland
-    dates: November 2022 – Present
+    dates: November~2022~–~Present
     tasks:
       - Updating and managing economic and financial data on the platform; ensuring high data quality
       - Cleaning datasets and correcting data inconsistencies or anomalies
@@ -42,7 +42,7 @@ experience:
   - title: Accountant
     company: Demant Business Services
     location: Szczecin, Poland
-    dates: July 2019 – October 2022
+    dates: July~2019~–~October 2022
     tasks:
       - Creating periodic reports and managing large data volumes in Excel
       - Reconciling balances and accruals
@@ -51,7 +51,7 @@ experience:
 certifications:
   - name: PCEP [30-01]– Certified Entry-Level Python Programmer
     organization: OpenEDG Python Institute
-    date: December 2023
+    date: December~2023
     link: https://verify.openedg.org/?id=kBAL.rJzU.gLN2
     ID: kBAL.rJzU.gLN2
 skills:
