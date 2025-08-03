@@ -39,8 +39,9 @@
 \ifPDFTeX
     \input{glyphtounicode}
     \pdfgentounicode=1
-    % \usepackage[T1]{fontenc} % this breaks sb2nov
+    \usepackage[T1]{fontenc} % this breaks sb2nov
     \usepackage[utf8]{inputenc}
+    \usepackage[polish,english]{babel} % for language support
     \usepackage{lmodern}
 \fi
 
@@ -65,7 +66,7 @@
   }
 }{}{}
 ((* else *))
-\patchcmd{\ps@customFooterStyle}{\thepage}{\thepage}{}{}
+\patchcmd{\ps@customFooterStyle}{\thepage}{}{}
 ((* endif *))
 
 \makeatother
