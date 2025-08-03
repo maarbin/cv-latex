@@ -23,7 +23,7 @@ def render_cv(lang: str, rodo: bool):
     template = env.get_template('cv_template.tex.jinja')
 
     # Render LaTeX with data
-    rendered_tex = template.render(**content)
+    rendered_tex = template.render(**content, rodo=rodo)
 
     # Save the .tex file
     suffix = '_rodo' if rodo else ''
