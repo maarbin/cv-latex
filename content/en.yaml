@@ -10,14 +10,14 @@ github:
  link: https://github.com/maarbin
  username: maarbin
 
-rodo_clause: >
+gdpr_clause: >
   I hereby give consent for my personal data to be processed for the purposes of the current recruitment process, 
   in accordance with Article 6(1)(a) of the GDPR (Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016).
 
 about: >
   I am a self-driven professional with a strong focus on problem-solving, which translates into a proactive and creative approach to everyday work.
   As a way to reflect this mindset already at the CV stage, I designed this document using LaTeX and automated the generation of different language and GDPR versions with Python and the Jinja2 templating engine.
-  You can find the source code in my GitHub repository, where I also share other projects such as a Power BI model and dashboard.
+  The source code is available in my GitHub repository, which also features other projects, including an end-to-end analytical project developed with Python and Power BI.
   In addition to continuously developing my skills, I also believe in knowledge sharing within the team. I have conducted internal trainings in every position I have held.
   I’m currently looking for opportunities where I can grow while contributing to meaningful projects and team development.
 

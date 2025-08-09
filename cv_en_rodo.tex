@@ -19,8 +19,8 @@
 \usepackage{fontawesome5} % for using icons
 \usepackage{amsmath} % for math
 \usepackage[
-    pdftitle={(((name + ' CV')))},
-    pdfauthor={(((name)))},
+    pdftitle={Marta Bińkowska CV},
+    pdfauthor={Marta Bińkowska},
     pdfcreator={My project},
     colorlinks=true,
     urlcolor=primaryColor
@@ -57,17 +57,16 @@
 \makeatletter
 \let\ps@customFooterStyle\ps@plain % Copy the plain page style
 
-((* if gdpr *))
+
 \patchcmd{\ps@customFooterStyle}{\thepage}{
   \parbox{\textwidth}{
     \centering
     \color{gray}\footnotesize
-    ((( gdpr_clause )))
+    I hereby give consent for my personal data to be processed for the purposes of the current recruitment process,  in accordance with Article 6(1)(a) of the GDPR (Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016).
+
   }
 }{}{}
-((* else *))
-\patchcmd{\ps@customFooterStyle}{\thepage}{}{}
-((* endif *))
+
 
 \makeatother
 \pagestyle{customFooterStyle}
@@ -166,20 +165,20 @@
 
     \placelastupdatedtext
     \begin{header}
-        \textbf{\fontsize{24 pt}{24 pt}\selectfont ((( name )))}
+        \textbf{\fontsize{24 pt}{24 pt}\selectfont Marta Bińkowska}
 
         \vspace{0.3 cm}
 
         \normalsize
-        \mbox{{\color{black}\footnotesize\faMapMarker*}\hspace*{0.13cm}((( location )))}%
+        \mbox{{\color{black}\footnotesize\faMapMarker*}\hspace*{0.13cm}Poland}%
         \kern 0.25 cm%
         \AND%
         \kern 0.25 cm%
-        \mbox{\hrefWithoutArrow{mailto:((( email )))}{\color{black}{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}((( email )))}}%
+        \mbox{\hrefWithoutArrow{mailto:mail@xyz.com}{\color{black}{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}mail@xyz.com}}%
         \kern 0.25 cm%
         \AND%
         \kern 0.25 cm%
-        \mbox{\hrefWithoutArrow{tel:((( phone )))}{\color{black}{\footnotesize\faPhone*}\hspace*{0.13cm}((( phone )))}}%
+        \mbox{\hrefWithoutArrow{tel:123 456 789}{\color{black}{\footnotesize\faPhone*}\hspace*{0.13cm}123 456 789}}%
         \kern 0.25 cm%
         %\AND%
         %\kern 0.25 cm%
@@ -187,126 +186,165 @@
        % \kern 0.25 cm%
         \AND%
         \kern 0.25 cm%
-        \mbox{\hrefWithoutArrow{((( linkedin.link )))}{\color{black}{\footnotesize\faLinkedinIn}\hspace*{0.13cm}((( linkedin.username)))}}%
+        \mbox{\hrefWithoutArrow{https://linkedin.com/in/binkowska-marta/}{\color{black}{\footnotesize\faLinkedinIn}\hspace*{0.13cm}binkowska-marta}}%
         \kern 0.25 cm%
         \AND%
         \kern 0.25 cm%
-        \mbox{\hrefWithoutArrow{((( github.link )))}{\color{black}{\footnotesize\faGithub}\hspace*{0.13cm}((( github.username)))}}%
+        \mbox{\hrefWithoutArrow{https://github.com/maarbin}{\color{black}{\footnotesize\faGithub}\hspace*{0.13cm}maarbin}}%
     \end{header}
 
     \vspace{0.3 cm - 0.3 cm}
 
 
-    \section{((( "Summary" if lang == "en" else "O mnie" )))}
+    \section{Summary}
 
 
 
         
         \begin{onecolentry}
-            ((( about )))
+            I am a self-driven professional with a strong focus on problem-solving, which translates into a proactive and creative approach to everyday work. As a way to reflect this mindset already at the CV stage, I designed this document using LaTeX and automated the generation of different language and GDPR versions with Python and the Jinja2 templating engine. You can find the source code in my GitHub repository, where I also share other projects such as a Power BI model and dashboard. In addition to continuously developing my skills, I also believe in knowledge sharing within the team. I have conducted internal trainings in every position I have held. I’m currently looking for opportunities where I can grow while contributing to meaningful projects and team development.
+
         \end{onecolentry}
 
 
 
 
-      \section{((( "Education" if lang == "en" else "Wykształcenie" )))}
+      \section{Education}
 
 
 
         
-      ((* for ed in education *))
-      \begin{twocolentry}{
-          \textit{((( ed.years )))}
-      }
-          \textbf{((( ed.institution )))}
       
-          \textit{((( ed.degree )))}
+      \begin{twocolentry}{
+          \textit{2020~–~2022}
+      }
+          \textbf{University of Szczecin}
+      
+          \textit{MS in Econometrics and IT Applications}
       \end{twocolentry}
       \vspace{0.15 cm}
-      ((* endfor *))
+      
+      \begin{twocolentry}{
+          \textit{2017~–~2020}
+      }
+          \textbf{University of Szczecin}
+      
+          \textit{BS in Finance and Accounting}
+      \end{twocolentry}
+      \vspace{0.15 cm}
+      
 
 
 
     
-      \section{((( "Experience" if lang == "en" else "Doświadczenie" )))}
+      \section{Experience}
 
 
 
         
-      ((* for job in experience *))
+      
       \begin{twocolentry}{
-          \textit{((( job.location )))}
+          \textit{Szczecin, Poland}
       
-          \textit{((( job.dates )))}
+          \textit{November~2022~–~Present}
       }
-          \textbf{((( job.title )))}
+          \textbf{Data Specialist}
       
-          \textit{((( job.company )))}
+          \textit{Macrobond Financial}
       \end{twocolentry}
       
       \vspace{0.10 cm}
       \begin{onecolentry}
           \begin{highlights}
-              ((* for item in job.tasks *))
-              \item ((( item )))
-              ((* endfor *))
+              
+              \item Updating and managing economic and financial data on the platform; ensuring high data quality
+              
+              \item Cleaning datasets and correcting data inconsistencies or anomalies
+              
+              \item Identifying and implementing automation in data processing workflows
+              
           \end{highlights}
       \end{onecolentry}
       
       \vspace{0.2 cm}
-      ((* endfor *))
+      
+      \begin{twocolentry}{
+          \textit{Szczecin, Poland}
+      
+          \textit{July~2019~–~October 2022}
+      }
+          \textbf{Accountant}
+      
+          \textit{Demant Business Services}
+      \end{twocolentry}
+      
+      \vspace{0.10 cm}
+      \begin{onecolentry}
+          \begin{highlights}
+              
+              \item Creating periodic reports and managing large data volumes in Excel
+              
+              \item Reconciling balances and accruals
+              
+              \item Participating in accounting process optimization projects
+              
+          \end{highlights}
+      \end{onecolentry}
+      
+      \vspace{0.2 cm}
+      
 
 
 
 
     
-    \section{((( "Certifications" if lang == "en" else "Certyfikaty" )))}
+    \section{Certifications}
 
 
         
-    ((* for cert in certifications *))
+    
     \begin{samepage}
         \begin{twocolentry}{
-            ((( cert.date )))
+            December~2023
         }
-            \textbf{((( cert.name )))}
+            \textbf{PCEP [30-01]– Certified Entry-Level Python Programmer}
     
             \vspace{0.10 cm}
     
-            \mbox{((( cert.organization )))}
+            \mbox{OpenEDG Python Institute}
         \end{twocolentry}
     
         \vspace{0.10 cm}
     
         \begin{onecolentry}
-            \href{((( cert.link )))}{Certificate ID: ((( cert.ID )))}
+            \href{https://verify.openedg.org/?id=kBAL.rJzU.gLN2}{Certificate ID: }
         \end{onecolentry}
     \end{samepage}
     
     \vspace{0.15 cm}
-    ((* endfor *))
+    
 
 
     
-    \section{((( "Skills" if lang == "en" else "Umiejętności" )))}
+    \section{Skills}
 
 
     \begin{itemize}
-        ((* if skills.languages *))
-        \item \textbf{((( "Languages" if lang == "en" else "Języki" ))) }: ((( skills.languages ))) 
-        ((* endif *))
+        
+        \item \textbf{Languages }: Polish (native), English (C1) 
+        
       
-        ((* if skills.programming *))
-        \item \textbf{((( "Programming" if lang == "en" else "Programowanie" ))) }: ((( skills.programming ))) 
-        ((* endif *))
+        
+        \item \textbf{Programming }: SQL (intermediate), Python (intermediate) 
+        
       
-        ((* if skills.data *))
-        \item \textbf{((( "Data" if lang == "en" else "Dane" ))) }: ((( skills.data ))) 
-        ((* endif *))
+        
+        \item \textbf{Data }: Excel (advanced), Power BI (intermediate), Power Query 
+        
       
-        ((* if skills.tools *))
-        \item \textbf{((( "Tools" if lang == "en" else "Narzędzia" ))) }: ((( skills.tools ))) 
-        ((* endif *))
+        
+        \item \textbf{Tools }: Git, SVN, Zsh 
+        
       \end{itemize}
 
 

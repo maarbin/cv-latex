@@ -10,14 +10,14 @@ github:
  link: https://github.com/maarbin
  username: maarbin
 
-rodo_clause: >
+gdpr_clause: >
   Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w CV dla potrzeb niezbędnych do realizacji procesu rekrutacji
   zgodnie z art. 6 ust. 1 lit. a RODO (Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r.).
 
 about: >
   Jestem samodzielną specjalistką z mocnym nastawieniem na rozwiązywanie problemów, co przekłada się na proaktywne i kreatywne podejście do codziennej pracy.
   Aby pokazać to podejście już na poziomie CV, zaprojektowałam ten dokument w LaTeX i zautomatyzowałam generowanie wersji językowych oraz RODO za pomocą Pythona i silnika szablonów Jinja2.
-  Kod źródłowy można znaleźć w moim repozytorium na GitHubie, gdzie dzielę się także innymi projektami, takimi jak model i dashboard w Power BI.
+  Kod źródłowy jest dostępny w moim repozytorium na GitHubie, które zawiera także inne projekty, w tym kompleksowy projekt analityczny wykonany z wykorzystaniem Pythona i Power BI.
   Poza ciągłym rozwojem kompetencji wierzę też w dzielenie się wiedzą w zespole - prowadziłam szkolenia wewnętrzne na każdym stanowisku, które zajmowałam.
   Obecnie szukam nowych możliwości które pozwolą mi rozwijać się, jednocześnie wnosząc wartość do projektów i zespołu.
 

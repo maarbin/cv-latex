@@ -14,30 +14,25 @@ env = Environment(
     comment_end_string='=))',
 ) 
 
-def render_cv(lang: str, rodo: bool):
-    # Read info from YAML file
+def render_cv(lang, gdpr):
     with open(f'content/{lang}.yaml', 'r', encoding='utf-8') as f:
         content = yaml.safe_load(f)
 
-    # Load LaTeX template from templates/
     template = env.get_template('cv_template.tex.jinja')
 
-    # Render LaTeX with data
-    rendered_tex = template.render(**content, rodo=rodo)
+    rendered_tex = template.render(**content, gdpr=gdpr)
 
-    # Save the .tex file
-    suffix = '_rodo' if rodo else ''
+    suffix = '_gdpr' if gdpr else ''
     tex_filename = f'cv_{lang}{suffix}.tex'
     pdf_filename = tex_filename.replace('.tex', '.pdf')
     Path(tex_filename).write_text(rendered_tex, encoding='utf-8')
 
-    # LaTeX to PDF
     subprocess.run(['pdflatex', tex_filename], check=True)
 
     print(f"PDF generated: {pdf_filename}")
 
-# Examples:
-render_cv('en', rodo=True)
-render_cv('pl', rodo=True)
-render_cv('en', rodo=False)
-render_cv('pl', rodo=False)
+
+render_cv('en', gdpr=True)
+render_cv('pl', gdpr=True)
+render_cv('en', gdpr=False)
+render_cv('pl', gdpr=False)
