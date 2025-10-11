@@ -1,8 +1,8 @@
 lang: en
 name: Marta Bińkowska
-location: Poland
-email: mail@xyz.com
-phone: 123 456 789
+location: Szczecin, Poland
+email: xyz@gmail.com
+phone: 1234567890
 linkedin:
  link: https://linkedin.com/in/binkowska-marta/
  username: binkowska-marta
@@ -22,6 +22,9 @@ about: >
   I’m currently looking for opportunities where I can grow while contributing to meaningful projects and team development.
 
 education:
+  - institution: Warsaw University of Technology
+    degree: Postgraduate in Big Data
+    years: 2025~–~2026
   - institution: University of Szczecin
     degree: MS in Econometrics and IT Applications
     years: 2020~–~2022

@@ -1,8 +1,8 @@
 lang: pl
 name: Marta Bińkowska
-location: Poland
-email: mail@xyz.com
-phone: 123 456 789
+location: Szczecin, Poland
+email: xyz@gmail.com
+phone: 1234567890
 linkedin:
  link: https://linkedin.com/in/binkowska-marta/
  username: binkowska-marta
@@ -22,6 +22,9 @@ about: >
   Obecnie szukam nowych możliwości które pozwolą mi rozwijać się, jednocześnie wnosząc wartość do projektów i zespołu.
 
 education:
+  - institution: Politechnika Warszawska
+    degree: Big Data (Podyplomowe)
+    years: 2025~–~2026
   - institution: Uniwersytet Szczeciński
     degree: Informatyka i Ekonometria (Magister)
     years: 2020~–~2022
