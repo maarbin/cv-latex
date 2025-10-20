@@ -6,3 +6,5 @@ __pycache__/
 *.out
 *.fdb_latexmk
 *.fls
+.DS_Store
+.python-version
